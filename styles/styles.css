@@ -144,10 +144,7 @@ body {
 }
 
 .bg-moderate-violet {
-    background-color: var(--moderate-violet);
-    background-image: url(/images/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    background-position: 87% 0%;
+    background: url(/images/bg-pattern-quotation.svg) no-repeat 87% 0% var(--moderate-violet);
 }
 
 .bg-very-dark-grayish-blue {
