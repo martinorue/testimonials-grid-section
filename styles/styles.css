@@ -200,7 +200,8 @@ body {
     .grid-item-tall {
         grid-column-start: 4;
         grid-column-end: 5;
-        grid-row: 1;
+        grid-row-start: 1;
+        grid-row-end: 3;
     }
 
 }
