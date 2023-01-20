@@ -173,7 +173,7 @@ body {
 @media screen and (min-width:48em) {
     .testimonials-grid {
         grid-template-columns: repeat(4, 1fr);
-        /* grid-template-rows: 1fr 1fr; */
+        grid-template-rows: 1fr 1fr;
         grid-gap: 25px;
     }
 
@@ -182,14 +182,25 @@ body {
         grid-column-end: 3;
     }
 
+    .grid-item-large.bg-very-dark-blackish-blue {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
     .grid-item-short {
         grid-column-start: 3;
         grid-column-end: 4;
     }
 
+    .grid-item-short.bg-white {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
     .grid-item-tall {
         grid-column-start: 4;
         grid-column-end: 5;
+        grid-row: 1;
     }
 
 }
