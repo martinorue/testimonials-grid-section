@@ -145,7 +145,7 @@ body {
 }
 
 .bg-moderate-violet {
-    background: url(/images/bg-pattern-quotation.svg) no-repeat 87% 0% var(--moderate-violet);
+    background: url(https://github.com/martinorue/testimonials-grid-section/blob/master/images/bg-pattern-quotation.svg) no-repeat 87% 0% var(--moderate-violet);
 }
 
 .bg-very-dark-grayish-blue {
