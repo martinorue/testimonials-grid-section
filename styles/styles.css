@@ -96,7 +96,7 @@ body {
 .testimonials-grid {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 45px 25px;
+    margin: 10px 25px;
     grid-gap: 25px;
     min-width: 340px;
 }
