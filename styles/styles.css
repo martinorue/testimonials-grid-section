@@ -74,6 +74,7 @@ body {
     background: linear-gradient(to bottom, var(--white), var(--light-gray));
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 /*------------------------ color -------------------*/
@@ -96,8 +97,8 @@ body {
 .testimonials-grid {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 10px 25px;
-    grid-gap: 25px;
+    margin: 40px 25px 0px;
+    grid-gap: 30px;
     min-width: 340px;
 }
 
@@ -173,8 +174,8 @@ body {
 @media screen and (min-width:48em) {
     .testimonials-grid {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr 1fr;
         grid-gap: 25px;
+        max-width: 1200px;
     }
 
     .grid-item-large {
